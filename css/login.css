@@ -1,0 +1,130 @@
+
+/*login_page*/
+.login_page{
+  background: url(../images/sub_visual_login.png) no-repeat 0 0;
+  height: 132px;
+  width: 1901px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+.login_page h1{
+  text-align: center;
+  font-size: 48px;
+  padding-top: 33px;
+}
+.login_page>p{
+  text-align: center;
+  font-size: 18px;
+}
+
+/*login_guide*/
+.inner{
+  width: 843px;
+  padding-top: 69px;
+  margin: auto;
+}
+.inner .login_guide h2{
+  font-size: 16px;
+  line-height: 31px;
+  text-decoration: underline;
+  font-weight: 900;
+}
+.inner .login_guide p,.inner .login_guide ol{
+  font-size: 14px;
+  line-height: 31px;
+}
+.inner .login_guide ol strong{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/*로그인 폼*/
+.inner form{
+  width: 843px;
+  height: 502px;
+  margin: 17px 0 51px;
+  border: 8px solid #f0f0f0;
+}
+.inner fieldset{
+  padding: 59px 108px;
+}
+.inner .login{
+  font-size: 15px;
+  position: relative;
+}
+.inner .login label{
+  font-weight: 800;
+}
+.inner .login .id {padding-left: 14px;}
+.inner .login .id input[type="text"],.inner .login .password input[type="password"]{
+  margin: 10px 6px 10px 24px;
+  width: 330px;
+  height: 49px;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+}
+.inner .login .id span{
+  position: absolute;
+  left: 450px;
+  top: 67px;
+  line-height: 49px;
+}
+.inner .login .id span label{
+  line-height: 49px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.inner .login .submit_login{
+  position: absolute;
+  right: 146px;
+  top: 69px;
+  width: 152px;
+  height: 118px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #20155e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*아이디, 비밀번호 찾기*/
+.inner .login .find{
+  position: relative;
+  padding: 34px 40px 0;
+}
+.inner .login .find p{
+  float: left;
+  text-decoration: underline;
+}
+.inner .login ul{float: right;}
+.inner .login ul li{
+  float: left;
+}
+.inner .login ul li a{
+  display: block;
+  width: 120px;
+  background: url(../images/icon_arrow.png) no-repeat 100px 3px;
+}
+
+.inner .login::after{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom:0;
+  background-color: grey;
+}
+.join input[type="submit"]{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 177px;
+  height: 45px;
+  color: #fff;
+  background-color: #6d6d6d;
+  margin-top: 21px;
+}

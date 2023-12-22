@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.inner {
+  width: 1192px;
+  margin: auto;
+}
+h2 {
+  float: left;
+  padding: 50px 0 40px 0;
+}
+/*header*/
+header {
+  width: 100%;
+  background-color: #10112f;
+  height: 115px;
+}
+header .inner {
+  position: relative;
+  height: 115px;
+  color: #fff;
+}
+header .inner h1 {
+  position: absolute;
+  left: 50%;
+  top: 33px;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #222;
+}
+.plus {
+  width: 126px;
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 21px;
+  text-align: center;
+  line-height: 46px;
+}
+.plus a {
+  display: block;
+  height: 100%;
+}
+.plus:hover {
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 21px;
+}
+
+/*주메뉴*/
+nav ul {
+  padding-top: 73px;
+}
+nav ul li {
+  float: left;
+  font-size: 19px;
+}
+nav ul li a {
+  padding: 0 31px;
+}
+nav ul li:nth-child(5) a {
+  margin-left: 200px;
+}
+nav ul li:last-child a {
+  content: "";
+  display: block;
+  padding: 18px 31px 18px 24px;
+  background: url(../images/bg_doorunMenuImg.png) no-repeat 0 0;
+  width: 130px;
+  height: 51px;
+  letter-spacing: -2px;
+}
+nav ul li:hover {
+  color: #b95155;
+  transition: all 0.3s;
+}
+
+/*유틸메뉴*/
+.util {
+  position: absolute;
+  top: 21px;
+  right: 18px;
+}
+.util li {
+  float: left;
+  padding: 0 13px;
+}
+.util li:nth-child(3) a,
+.util li:nth-child(4) a {
+  border-radius: 25px;
+}
+.util li:nth-child(3) a {
+  padding: 6px 16px;
+  background-color: #ed1c24;
+}
+.util li:nth-child(4) a {
+  padding: 8px 21px;
+  background-color: #487bff;
+}
+
+/*main*/
+.main_visual {
+  overflow: hidden;
+  width: 100%;
+  height: 541px;
+}
+.main_visual ul {
+  position: relative;
+  width: 400%;
+  height: 100%;
+}
+.main_visual li {
+  float: left;
+  width: 25%;
+  height: 541px;
+}
+/*두산베어스 TV*/
+.bears_tv {
+  width: 100%;
+  height: 550px;
+  margin: 120px 0 30px;
+}
+main .inner {
+  position: relative;
+  padding: 120px 0;
+  width: 1201px;
+  height: 710px;
+  margin: auto;
+}
+.bears_tv .introduce {
+  padding-top: 49px;
+  float: left;
+  width: 278px;
+  height: 255px;
+}
+.introduce p:first-of-type {
+  float: left;
+  padding-bottom: 49px;
+  font-size: 15px;
+  color: #666;
+}
+.bears_tv ul {
+  position: relative;
+  float: right;
+  right: 0;
+  width: 880px;
+  height: 475px;
+}
+.bears_tv ul li {
+  float: left;
+  height: 200px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.mg50 {
+  position: relative;
+  top: 50px;
+}
+.bears_tv figure {
+  width: 269px;
+  height: 151px;
+}
+.bears_tv figure > img {
+  width: 269px;
+  height: 151px;
+  object-fit: cover;
+}
+.bears_tv figure > figcaption {
+  padding-top: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bears_tv .plus {
+  background-color: #eaeaea;
+}
+.bears_tv .plus:hover {
+  background-color: #fff;
+}
+/*두산베어스 이벤트*/
+.wrap_a {
+  width: 100%;
+  height: 710px;
+  background: url(../images/bg_mainEvent.png) no-repeat 0 0;
+  background-size: 100% 710px;
+}
+.event {
+  position: relative;
+  margin: auto;
+  width: 1201px;
+  height: 710px;
+}
+.event .title {
+  padding: 160px 0 27px 0;
+}
+.event p:first-of-type {
+  position: absolute;
+  left: 296px;
+  top: 175px;
+  color: #666;
+}
+.event ul {
+  padding-top: 20px;
+}
+.event li {
+  float: left;
+  width: 290px;
+  height: 229px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 37px 30px;
+}
+.event li span {
+  display: block;
+}
+.event li .index {
+  font-size: 14px;
+  color: red;
+  padding-bottom: 32px;
+}
+.event li .name {
+  font-size: 17px;
+  padding-bottom: 14px;
+  line-height: 29px;
+}
+.event li .day {
+  position: absolute;
+  bottom: 280px;
+  color: #a1a1a1;
+}
+.event .plus {
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+
+/*두산베어스 보도자료*/
+.wrap {
+  width: 100%;
+}
+
+.reference {
+  position: relative;
+  padding: 120px 0;
+}
+.reference .content {
+  position: absolute;
+  left: 326px;
+  top: 182px;
+  color: #666;
+}
+.reference .slide_wrap {
+  height: 270px;
+  position: relative;
+  float: left;
+}
+.reference ul {
+  margin-top: 47px;
+  height: 270px;
+}
+.reference li {
+  float: left;
+}
+.reference li ~ li {
+  margin-left: 27px;
+}
+
+.reference li img {
+  width: 280px;
+  height: 177px;
+}
+.reference li figure figcaption {
+  padding-top: 21px;
+  font-size: 18px;
+}
+.reference .plus {
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.reference .prev,
+.reference .next {
+  top: 40%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.reference .prev {
+  left: 0;
+}
+.reference .next {
+  right: 0;
+}
+/*footer*/
+/*sponser*/
+footer::before {
+  content: "";
+  display: block;
+  background-color: #eaeaea;
+  width: 100%;
+  height: 1px;
+}
+.sponser {
+  width: 1176px;
+  height: 103px;
+  margin: auto;
+  overflow: hidden;
+}
+.sponser ul {
+  font-size: 0;
+  position: relative;
+  width: 1000%;
+  animation: slider 40s linear infinite;
+}
+.sponser ul li {
+  display: inline;
+  line-height: 103px;
+  width: 10%;
+}
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  20% {
+    left: -10%;
+  }
+  30% {
+    left: -10%;
+  }
+  40% {
+    left: -20%;
+  }
+  50% {
+    left: -20%;
+  }
+  60% {
+    left: -30%;
+  }
+  70% {
+    left: -30%;
+  }
+  80% {
+    left: -40%;
+  }
+  90% {
+    left: -40%;
+  }
+}
+
+/*promise*/
+.promise_sns {
+  width: 100%;
+  height: 60px;
+  background-color: #10102c;
+  padding: 0 113px;
+}
+.promise_sns .promise {
+  float: left;
+}
+.promise_sns .promise li {
+  float: left;
+}
+.promise_sns .promise li a {
+  color: #999;
+  line-height: 60px;
+  font-size: 14px;
+  padding: 20px 21px;
+}
+.promise_sns .promise li strong {
+  color: #fff;
+}
+/*sns*/
+.promise_sns .sns {
+  float: right;
+}
+.promise_sns .sns li {
+  float: left;
+  line-height: 60px;
+  padding: 0 5px;
+}
+/*address*/
+.address {
+  padding: 33px 113px 58px;
+}
+.address address {
+  float: left;
+}
+.address address span,
+.address address small {
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+}
+.address address span {
+  padding-right: 20px;
+}
+.address address small {
+  display: inline-block;
+  padding: 27px 0 58px;
+}
+
+/*doosan logo*/
+.address p {
+  float: right;
+  position: relative;
+  width: 263px;
+}
+.address p a {
+  float: left;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+.address p img {
+  display: block;
+  float: right;
+}
+.address p span {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  text-align: right;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999;
+}

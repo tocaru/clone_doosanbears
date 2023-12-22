@@ -1,0 +1,189 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+/*header*/
+header{
+  width: 100%;
+  background-color:#10112F ;
+  height: 115px;
+}
+header .inner{
+  position: relative;
+  width: 1162px;
+  margin: auto;
+  color: #fff;
+}
+header .inner h1{
+  position: absolute;
+  left: 50%;
+  top: 33px;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+.title{
+  font-size: 36px;
+  color: #222;
+}
+/*주메뉴*/
+nav ul{
+  float: left;
+}
+nav ul li{
+  float: left;
+  font-size: 19px;
+}
+nav ul li a{
+  padding:0 31px;
+}
+nav ul li:nth-child(5) a{
+  margin-left: 200px;
+}
+nav ul li:last-child a{
+  content: "";
+  display: block;
+  position: absolute;
+  padding-top: 18px;
+  top: 55px;
+  right: 0;
+  padding: 18px 31px 18px 24px;
+  background: url(../images/bg_doorunMenuImg.png) no-repeat 0 0;
+  width: 130px;
+  height: 51px;
+  letter-spacing: -2px;
+}
+
+/*탭메뉴...*/
+nav>ul>li ul{display: none;}
+nav ul li a:hover{
+
+}
+
+/*유틸메뉴*/
+.util{
+position: absolute;
+top: 21px;
+right: 18px;}
+.util li{
+  float: left;
+  padding: 0 13px;
+}
+.util li:nth-child(3) a,.util li:nth-child(4) a{
+  border-radius: 25px;
+}
+.util li:nth-child(3) a{
+  padding: 6px 16px;
+  background-color: #ed1c24;}
+.util li:nth-child(4) a{
+  padding: 8px 21px;
+  background-color: #487bff;}
+
+  strong{font-weight: normal;}
+footer{width: 100%; margin-top: 20px;}
+footer::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #dadada;
+}
+
+/*footer*/
+/*sponser*/
+.sponser{
+    width: 1176px;
+    height: 103px;
+    margin: auto;
+    overflow: hidden;
+}
+.sponser ul{
+    font-size: 0;
+    position: relative;
+    width: 1000%;
+    animation: slider 40s linear infinite;
+}
+.sponser ul li{
+    display: inline;
+    line-height: 103px;
+    width: 10%;
+}
+@keyframes slider {
+    0%{left:0;}
+    10%{left:0;}
+    20%{left:-10%;}
+    30%{left:-10%;}
+    40%{left:-20%;}
+    50%{left:-20%;}
+    60%{left:-30%;}
+    70%{left:-30%;}
+    80%{left:-40%;}
+    90%{left:-40%;}
+  }
+
+/*promise*/
+.promise_sns{
+    width: 100%;
+    height: 60px;
+    background-color: #10102c;
+    padding: 0 113px;
+}
+.promise_sns .promise{
+    float: left;
+}
+.promise_sns .promise li{float: left;}
+.promise_sns .promise li a{
+    color: #999;
+    line-height: 60px;
+    font-size: 14px;
+    padding: 20px 21px;
+}
+.promise_sns .promise li strong{color: #fff;}
+/*sns*/
+.promise_sns .sns{float: right;}
+.promise_sns .sns li{
+    float: left;
+    line-height: 60px;
+    padding: 0 5px;
+}
+/*address*/
+.address{padding: 33px 113px 58px ;}
+.address address{float: left;}
+.address address span,.address address small{
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 14px;
+}
+.address address span{padding-right:20px;}
+.address address small{
+    display: inline-block;
+    padding: 27px 0 58px;}
+
+    /*doosan logo*/
+.address p{
+    float: right;
+    position: relative;
+    width: 263px;
+}
+.address p a{
+    float: left;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.address p img{
+    display: block; 
+    float: right;
+}
+.address p span{
+    display: block; 
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: right;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999;
+}
